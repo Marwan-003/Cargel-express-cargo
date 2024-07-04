@@ -1,0 +1,29 @@
+@keyframes slidesLeft {
+  0%{
+    transform: translateX(-150%);
+    opacity: 0;
+  }
+  80%{
+    transform: translateX(0);
+    opacity: .8;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slidesRight {
+  0%{
+    transform: translateX(150%);
+    opacity: 0;
+  }
+  80%{
+    transform: translateX(0);
+    opacity: .8;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
